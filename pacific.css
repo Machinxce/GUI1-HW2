@@ -1,0 +1,102 @@
+/*
+File: pacific.css
+GUI Assignment: HW2
+Samin Basir
+samin_basir@student.uml.edu
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+h1 {
+    margin: 0;
+	padding: 10px;
+}
+h2 {
+    padding: 20px 0;
+    margin: 0;
+    color: #3399CC;
+}
+body
+{
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("ptrbackground.jpg"); /*inserting the background image*/
+	background-repeat: repeat-x;
+	width: 80%;
+	min-width: 600px;
+	margin: auto;
+}
+img {
+    float: left;
+    margin-right: 30px;
+}
+header {
+    background: #000032 url(sunset.jpg) right no-repeat;
+    color: #ffffff;
+}
+nav li{/*this took out the bulitted list*/
+    list-style-type: none;
+
+}
+nav {
+    width: 190px;
+    float: left;
+}
+nav ul
+{
+	font-size: 1.2em;
+	height: 300px;
+	width: 150px;
+	position: absolute;
+	background-color: #abd3ed;
+	list-style-type: none;
+	margin: auto;
+	padding: 20px;
+}
+nav a:visited
+{
+	color: #344873;
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000032;
+}
+nav a:hover {
+    color: #ffffff;
+}
+footer {
+    margin-left: 190px;
+    padding: 20px;
+    background-color: #ffffff;
+    font-style: italic;
+    font-size: 0.75em;
+    font-family: Georgia, "Times New Roman", serif;
+}
+#wrapper {
+    min-width: 600px;
+    width: 90%;
+    background-color: #abd3ed; /*setting the color*/
+    margin: 0 auto;
+}
+#content {
+    margin-left: 190px;
+    background-color: #ffffff;
+    padding: 0 20px 15px 30px;
+}
+#content > ul {
+    list-style: inside url('marker.gif');
+    padding: 0;
+    margin: 20px 0 20px 40px;
+}
+#contact {
+    font-size: 0.9em;
+}
+.resort {
+    font-weight: bold;
+    color: #5b7f9f;
+}
